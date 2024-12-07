@@ -1,0 +1,46 @@
+|-- admin.php
+|-- adminDashboard.html
+|-- adminDashboard.php
+|-- adminIssueBooks.html
+|-- adminManageBooks.html
+|-- adminManageUsers.html
+|-- assets
+    |-- registerBG.png
+|-- BookFormvalidation.js
+|-- books.css
+|-- books.js
+|-- booksManage.php
+|-- config.php
+|-- dashboard.php
+|-- deactivateUser.php
+|-- editMember.php
+|-- editMemberValidate.js
+|-- error.html
+|-- fetchBooks.php
+|-- fetchUsers.php
+|-- Issue&Return.css
+|-- issue&return.js
+|-- issueBook.php
+|-- login.html
+|-- login.php
+|-- logout.php
+|-- member.php
+|-- members.css
+|-- members.js
+|-- memberValidate.js
+|-- models
+|-- package-lock.json
+|-- package.json
+|-- register.php
+|-- return.js
+|-- returnbook.php
+|-- searchBook.php
+|-- searchUser.php
+|-- uploads
+    |-- Funny_Story.jpeg
+    |-- images (1).jpeg
+    |-- images (2).jpeg
+    |-- images (3).jpeg
+    |-- images.jpeg
+    |-- test.png
+|-- validate.css

@@ -1,0 +1,49 @@
+body{
+    overflow: hidden;
+}
+.custom-navbar {
+    width: 90%;
+    margin: 0 auto;
+}
+.card {
+    height: 78vh;
+}
+.table-container {
+    height: 80vh;
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+.memberAddBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: -0.5rem;
+}
+.searchMember{
+    display: flex;
+    flex-direction: row;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    width: 30%;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important; /* Also removes any box shadow applied on focus */
+}
+
+#gender {
+    cursor: pointer;
+}
+
+/* Focus effect for all input fields */
+input:focus, select:focus {
+    outline: none; /* Removes the blue outline */
+    border: 1px solid green; /* Optionally, keep a custom border style */
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+}

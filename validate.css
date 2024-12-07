@@ -1,0 +1,9 @@
+input:focus, select:focus {
+    outline: none !important;
+    box-shadow: none !important; /* Also removes any box shadow applied on focus */
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+}

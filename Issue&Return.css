@@ -1,0 +1,38 @@
+input:focus {
+    outline: none !important;
+    box-shadow: none !important; /* Also removes any box shadow applied on focus */
+}
+.custom-navbar {
+    width: 90%;
+    margin: 0 auto;
+}
+.container {
+    margin-top: 30px;
+}
+.form-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    flex: 1;
+}
+.form-control-sm {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+}
+.form-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
